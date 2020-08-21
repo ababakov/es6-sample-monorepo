@@ -1,0 +1,23 @@
+{
+  "name": "es6-sample-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
